@@ -35,7 +35,7 @@ void addContact(string name, Contact* contact)
 	{
 		vector<Contact*>* newContact = new vector<Contact*>;
 		newContact->push_back(contact);
-		tracer.insert(std::pair<string, vector<Contact*>*>(name, newContact));
+		tracer.insert(pair<string, vector<Contact*>*>(name, newContact));
 	}
 }
 
