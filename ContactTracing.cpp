@@ -154,10 +154,10 @@ do
 
 			fout.close();
 
-//			Contact* newContact = new Contact(contact, time, location);
-//			Contact* otherContact = new Contact(name, time, location);
-//			addContact(name, newContact);
-//			addContact(contact, otherContact);
+			Contact* newContact = new Contact(contact, time, location);
+			Contact* otherContact = new Contact(name, time, location);
+			addContact(name, newContact);
+			addContact(contact, otherContact);
 
 			break;
 		}
